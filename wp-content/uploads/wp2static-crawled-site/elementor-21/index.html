@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Elementor #21 &#8211; wordpress</title>
+
+<link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/twentytwentyfour/style.css" type="text/css" media="screen" />
+<link rel="pingback" href="http://localhost/wordpress/xmlrpc.php" />
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+<title>Elementor #21 &#8211; wordpress</title>
+<link rel="alternate" type="application/rss+xml" title="wordpress &raquo; Feed" href="http://localhost/wordpress/feed/" />
+<link rel="alternate" type="application/rss+xml" title="wordpress &raquo; Comments Feed" href="http://localhost/wordpress/comments/feed/" />
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color)}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #f9f9f9;--wp--preset--color--base-2: #ffffff;--wp--preset--color--contrast: #111111;--wp--preset--color--contrast-2: #636363;--wp--preset--color--contrast-3: #A4A4A4;--wp--preset--color--accent: #cfcabe;--wp--preset--color--accent-2: #c2a990;--wp--preset--color--accent-3: #d8613c;--wp--preset--color--accent-4: #b1c5a4;--wp--preset--color--accent-5: #b5bdbc;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--gradient-1: linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-2: linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-3: linear-gradient(to bottom, #D8613C 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-4: linear-gradient(to bottom, #B1C5A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-5: linear-gradient(to bottom, #B5BDBC 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-6: linear-gradient(to bottom, #A4A4A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-7: linear-gradient(to bottom, #cfcabe 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-8: linear-gradient(to bottom, #C2A990 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-9: linear-gradient(to bottom, #D8613C 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-10: linear-gradient(to bottom, #B1C5A4 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-11: linear-gradient(to bottom, #B5BDBC 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-12: linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%);--wp--preset--font-size--small: 0.9rem;--wp--preset--font-size--medium: 1.05rem;--wp--preset--font-size--large: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 0.767), 1.85rem);--wp--preset--font-size--x-large: clamp(1.85rem, 1.85rem + ((1vw - 0.2rem) * 1.083), 2.5rem);--wp--preset--font-size--xx-large: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 1.283), 3.27rem);--wp--preset--font-family--body: "Inter", sans-serif;--wp--preset--font-family--heading: Cardo;--wp--preset--font-family--system-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;--wp--preset--font-family--system-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;--wp--preset--spacing--20: min(1.5rem, 2vw);--wp--preset--spacing--30: min(2.5rem, 3vw);--wp--preset--spacing--40: min(4rem, 5vw);--wp--preset--spacing--50: min(6.5rem, 8vw);--wp--preset--spacing--60: min(10.5rem, 13vw);--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--10: 1rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 620px;--wp--style--global--wide-size: 1280px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.2rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.2rem; }.is-layout-flow  > :first-child{margin-block-start: 0;}.is-layout-flow  > :last-child{margin-block-end: 0;}.is-layout-flow  > *{margin-block-start: 1.2rem;margin-block-end: 0;}.is-layout-constrained  > :first-child{margin-block-start: 0;}.is-layout-constrained  > :last-child{margin-block-end: 0;}.is-layout-constrained  > *{margin-block-start: 1.2rem;margin-block-end: 0;}.is-layout-flex {gap: 1.2rem;}.is-layout-grid {gap: 1.2rem;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:root :where(body){background-color: var(--wp--preset--color--base);color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--medium);font-style: normal;font-weight: 400;line-height: 1.55;--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: var(--wp--preset--spacing--50);--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: var(--wp--preset--spacing--50);}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--contrast);text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}h1, h2, h3, h4, h5, h6{color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--heading);font-weight: 400;line-height: 1.2;}h1{font-size: var(--wp--preset--font-size--xx-large);line-height: 1.15;}h2{font-size: var(--wp--preset--font-size--x-large);}h3{font-size: var(--wp--preset--font-size--large);}h4{font-size: clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem);}h5{font-size: var(--wp--preset--font-size--medium);}h6{font-size: var(--wp--preset--font-size--small);}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--contrast);border-radius: .33rem;border-color: var(--wp--preset--color--contrast);border-width: 0;color: var(--wp--preset--color--base);font-family: inherit;font-size: var(--wp--preset--font-size--small);font-style: normal;font-weight: 500;line-height: inherit;padding-top: 0.6rem;padding-right: 1rem;padding-bottom: 0.6rem;padding-left: 1rem;text-decoration: none;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: var(--wp--preset--color--contrast-2);border-color: var(--wp--preset--color--contrast-2);color: var(--wp--preset--color--base);}:root :where(.wp-element-button:focus, .wp-block-button__link:focus){background-color: var(--wp--preset--color--contrast-2);border-color: var(--wp--preset--color--contrast-2);color: var(--wp--preset--color--base);outline-color: var(--wp--preset--color--contrast);outline-offset: 2px;}:root :where(.wp-element-button:active, .wp-block-button__link:active){background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}:root :where(.wp-element-caption, .wp-block-audio figcaption, .wp-block-embed figcaption, .wp-block-gallery figcaption, .wp-block-image figcaption, .wp-block-table figcaption, .wp-block-video figcaption){color: var(--wp--preset--color--contrast-2);font-family: var(--wp--preset--font-family--body);font-size: 0.8rem;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-base-2-color{color: var(--wp--preset--color--base-2) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-color{color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-color{color: var(--wp--preset--color--contrast-3) !important;}.has-accent-color{color: var(--wp--preset--color--accent) !important;}.has-accent-2-color{color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-color{color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-color{color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-color{color: var(--wp--preset--color--accent-5) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-base-2-background-color{background-color: var(--wp--preset--color--base-2) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-background-color{background-color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-background-color{background-color: var(--wp--preset--color--contrast-3) !important;}.has-accent-background-color{background-color: var(--wp--preset--color--accent) !important;}.has-accent-2-background-color{background-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-background-color{background-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-background-color{background-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-background-color{background-color: var(--wp--preset--color--accent-5) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-base-2-border-color{border-color: var(--wp--preset--color--base-2) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-border-color{border-color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-border-color{border-color: var(--wp--preset--color--contrast-3) !important;}.has-accent-border-color{border-color: var(--wp--preset--color--accent) !important;}.has-accent-2-border-color{border-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-border-color{border-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-border-color{border-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-border-color{border-color: var(--wp--preset--color--accent-5) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-gradient-1-gradient-background{background: var(--wp--preset--gradient--gradient-1) !important;}.has-gradient-2-gradient-background{background: var(--wp--preset--gradient--gradient-2) !important;}.has-gradient-3-gradient-background{background: var(--wp--preset--gradient--gradient-3) !important;}.has-gradient-4-gradient-background{background: var(--wp--preset--gradient--gradient-4) !important;}.has-gradient-5-gradient-background{background: var(--wp--preset--gradient--gradient-5) !important;}.has-gradient-6-gradient-background{background: var(--wp--preset--gradient--gradient-6) !important;}.has-gradient-7-gradient-background{background: var(--wp--preset--gradient--gradient-7) !important;}.has-gradient-8-gradient-background{background: var(--wp--preset--gradient--gradient-8) !important;}.has-gradient-9-gradient-background{background: var(--wp--preset--gradient--gradient-9) !important;}.has-gradient-10-gradient-background{background: var(--wp--preset--gradient--gradient-10) !important;}.has-gradient-11-gradient-background{background: var(--wp--preset--gradient--gradient-11) !important;}.has-gradient-12-gradient-background{background: var(--wp--preset--gradient--gradient-12) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-body-font-family{font-family: var(--wp--preset--font-family--body) !important;}.has-heading-font-family{font-family: var(--wp--preset--font-family--heading) !important;}.has-system-sans-serif-font-family{font-family: var(--wp--preset--font-family--system-sans-serif) !important;}.has-system-serif-font-family{font-family: var(--wp--preset--font-family--system-serif) !important;}
+:where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}:root :where(.wp-block-calendar.wp-block-calendar table:where(:not(.has-text-color)) th){background-color:var(--wp--preset--color--contrast-2);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--contrast-2)}:root :where(.wp-block-calendar table:where(:not(.has-text-color)) td){border-color:var(--wp--preset--color--contrast-2)}:root :where(.wp-block-categories){}:root :where(.wp-block-categories){list-style-type:none;}:root :where(.wp-block-categories li){margin-bottom: 0.5rem;}:root :where(.wp-block-post-comments-form){}:root :where(.wp-block-post-comments-form textarea, .wp-block-post-comments-form input){border-radius:.33rem}:root :where(.wp-block-loginout){}:root :where(.wp-block-loginout input){border-radius:.33rem;padding:calc(0.667em + 2px);border:1px solid #949494;}:root :where(.wp-block-post-terms){}:root :where(.wp-block-post-terms .wp-block-post-terms__prefix){color: var(--wp--preset--color--contrast-2);}:root :where(.wp-block-query-title){}:root :where(.wp-block-query-title span){font-style: italic;}:root :where(.wp-block-quote){}:root :where(.wp-block-quote :where(p)){margin-block-start:0;margin-block-end:calc(var(--wp--preset--spacing--10) + 0.5rem);}:root :where(.wp-block-quote :where(:last-child)){margin-block-end:0;}:root :where(.wp-block-quote.has-text-align-right.is-style-plain, .rtl .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-left)){border-width: 0 2px 0 0;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem);}:root :where(.wp-block-quote.has-text-align-left.is-style-plain, body:not(.rtl) .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-right)){border-width: 0 0 0 2px;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem)}:root :where(.wp-block-search){}:root :where(.wp-block-search .wp-block-search__input){border-radius:.33rem}:root :where(.wp-block-separator){}:root :where(.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull)){width: var(--wp--preset--spacing--60)}
+</style>
+<style id='wp-block-template-skip-link-inline-css'>
+
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+</style>
+<link rel='stylesheet' id='elementor-frontend-css' href='http://localhost/wordpress/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.23.4' media='all' />
+<style id='elementor-frontend-inline-css'>
+.elementor-kit-7{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}
+.elementor-widget-heading .elementor-heading-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-text-editor{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-button .elementor-button{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );background-color:var( --e-global-color-accent );}.elementor-widget-divider{--divider-color:var( --e-global-color-secondary );}.elementor-widget-divider .elementor-divider__text{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-divider.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon{color:var( --e-global-color-secondary );border-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon svg{fill:var( --e-global-color-secondary );}.elementor-widget-image-box .elementor-image-box-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-image-box .elementor-image-box-description{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-icon.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-primary );}.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-box.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-primary );}.elementor-widget-icon-box.elementor-view-framed .elementor-icon, .elementor-widget-icon-box.elementor-view-default .elementor-icon{fill:var( --e-global-color-primary );color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-icon-box .elementor-icon-box-title{color:var( --e-global-color-primary );}.elementor-widget-icon-box .elementor-icon-box-title, .elementor-widget-icon-box .elementor-icon-box-title a{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-icon-box .elementor-icon-box-description{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-star-rating .elementor-star-rating__title{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-image-gallery .gallery-item .gallery-caption{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after{border-color:var( --e-global-color-text );}.elementor-widget-icon-list .elementor-icon-list-icon i{color:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-icon-list .elementor-icon-list-text{color:var( --e-global-color-secondary );}.elementor-widget-counter .elementor-counter-number-wrapper{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-counter .elementor-counter-title{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar{background-color:var( --e-global-color-primary );}.elementor-widget-progress .elementor-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-testimonial .elementor-testimonial-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-testimonial .elementor-testimonial-name{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-testimonial .elementor-testimonial-job{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-tabs .elementor-tab-title, .elementor-widget-tabs .elementor-tab-title a{color:var( --e-global-color-primary );}.elementor-widget-tabs .elementor-tab-title.elementor-active,
+					 .elementor-widget-tabs .elementor-tab-title.elementor-active a{color:var( --e-global-color-accent );}.elementor-widget-tabs .elementor-tab-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-tabs .elementor-tab-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-accordion .elementor-accordion-icon, .elementor-widget-accordion .elementor-accordion-title{color:var( --e-global-color-primary );}.elementor-widget-accordion .elementor-accordion-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-accordion .elementor-active .elementor-accordion-icon, .elementor-widget-accordion .elementor-active .elementor-accordion-title{color:var( --e-global-color-accent );}.elementor-widget-accordion .elementor-active .elementor-accordion-icon svg{fill:var( --e-global-color-accent );}.elementor-widget-accordion .elementor-accordion-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-accordion .elementor-tab-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-toggle .elementor-toggle-title, .elementor-widget-toggle .elementor-toggle-icon{color:var( --e-global-color-primary );}.elementor-widget-toggle .elementor-toggle-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-toggle .elementor-tab-title.elementor-active a, .elementor-widget-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon{color:var( --e-global-color-accent );}.elementor-widget-toggle .elementor-toggle-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-toggle .elementor-tab-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-alert .elementor-alert-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-alert .elementor-alert-description{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-countdown .eael-countdown-digits::after{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-eael-countdown .eael-countdown-digits{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-eael-countdown .eael-countdown-label{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-eael-countdown .eael-countdown-finish-message .expiry-title{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.eael-countdown-finish-text{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-eael-creative-button .eael-creative-button .cretive-button-text, .elementor-widget-eael-creative-button .eael-creative-button--winona::after, .elementor-widget-eael-creative-button .eael-creative-button--rayen::before, .elementor-widget-eael-creative-button .eael-creative-button--tamaya::after, .elementor-widget-eael-creative-button .eael-creative-button--tamaya::before{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-dual-color-header .eael-dch-separator-wrap i{color:var( --e-global-color-primary );}.elementor-widget-eael-fancy-text .eael-fancy-text-prefix{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-fancy-text .eael-fancy-text-strings, .elementor-widget-eael-fancy-text .typed-cursor{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-fancy-text .eael-fancy-text-suffix{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-feature-list .connector-type-classic .connector{border-color:var( --e-global-color-primary );}.elementor-widget-eael-feature-list .connector-type-modern .eael-feature-list-item:before, .elementor-widget-eael-feature-list .connector-type-modern .eael-feature-list-item:after{border-color:var( --e-global-color-primary );}.elementor-widget-eael-feature-list .eael-feature-list-content-box .eael-feature-list-title, .elementor-widget-eael-feature-list .eael-feature-list-content-box .eael-feature-list-title > a, .elementor-widget-eael-feature-list .eael-feature-list-content-box .eael-feature-list-title:visited{color:var( --e-global-color-primary );}.elementor-widget-eael-feature-list .eael-feature-list-content-box .eael-feature-list-title, .elementor-widget-eael-feature-list .eael-feature-list-content-box .eael-feature-list-title a{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-feature-list .eael-feature-list-content-box .eael-feature-list-content{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-filterable-gallery .fg-caption-head .fg-item-price{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-filterable-gallery .fg-caption-head .fg-item-ratings{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-filterable-gallery .fg-item-category span{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-filterable-gallery .fg-filter-trigger > span{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-filterable-gallery .fg-layout-3-filter-controls li.control{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-filterable-gallery .eael-gallery-load-more .eael-filterable-gallery-load-more-text{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-nft-gallery .eael-nft-gallery-load-more .eael-nft-gallery-load-more-text{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-eael-progress-bar .eael-progressbar-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-progress-bar .eael-progressbar-line-fill.eael-has-inner-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-progress-bar .eael-progressbar-count-wrap{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-progress-bar .eael-progressbar-half-circle-after span{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-simple-menu .eael-simple-menu >li > a, .eael-simple-menu-container .eael-simple-menu-toggle-text{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-eael-simple-menu .eael-simple-menu li ul li > a{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-text-path{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}
+.elementor-21 .elementor-element.elementor-element-5b4eabe0{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;--overlay-opacity:0.9;--padding-top:10%;--padding-bottom:10%;--padding-left:010%;--padding-right:050%;}.elementor-21 .elementor-element.elementor-element-5b4eabe0:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-5b4eabe0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-21 .elementor-element.elementor-element-5b4eabe0::before, .elementor-21 .elementor-element.elementor-element-5b4eabe0 > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-5b4eabe0 > .e-con-inner > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-5b4eabe0 > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-5b4eabe0 > .e-con-inner > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-5b4eabe0 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';background-color:transparent;background-image:linear-gradient(90deg, #FFFFFF 50%, #F2295B00 90%);}.elementor-21 .elementor-element.elementor-element-5b4eabe0, .elementor-21 .elementor-element.elementor-element-5b4eabe0::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-4581d4d1 .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-3e049ee3{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-25160569{font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-6185b6de{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-3d52d6ce{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-2d8a450a{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-26d21a5f{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-7dc28277{text-align:center;}.elementor-21 .elementor-element.elementor-element-7dc28277 .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-186de103{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-4d584278{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-4d584278, .elementor-21 .elementor-element.elementor-element-4d584278::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-36d8740b{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-36d8740b:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-36d8740b > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-36d8740b, .elementor-21 .elementor-element.elementor-element-36d8740b::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-66ecc5c1{text-align:left;}.elementor-21 .elementor-element.elementor-element-66ecc5c1 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-e4ab6cc{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-38f2a1c4{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-38f2a1c4:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-38f2a1c4 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-38f2a1c4, .elementor-21 .elementor-element.elementor-element-38f2a1c4::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-5d37d7f8{text-align:left;}.elementor-21 .elementor-element.elementor-element-5d37d7f8 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-60f87ec5{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-7c4007d7{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-7c4007d7:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-7c4007d7 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-7c4007d7, .elementor-21 .elementor-element.elementor-element-7c4007d7::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-4eab66f7 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-1c2158f2{width:var( --container-widget-width, 300px );max-width:300px;--container-widget-width:300px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-244f4d4e{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:020%;--padding-right:020%;}.elementor-21 .elementor-element.elementor-element-71cd403e{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-71cd403e:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-71cd403e > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-71cd403e, .elementor-21 .elementor-element.elementor-element-71cd403e::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3bfa3efc{width:var( --container-widget-width, 300px );max-width:300px;--container-widget-width:300px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-59fa6665{text-align:left;}.elementor-21 .elementor-element.elementor-element-59fa6665 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-5795ecf8{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-687778d6{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-687778d6:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-687778d6 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-687778d6, .elementor-21 .elementor-element.elementor-element-687778d6::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-27d54f19{text-align:left;}.elementor-21 .elementor-element.elementor-element-27d54f19 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-744697e0{width:var( --container-widget-width, 300px );max-width:300px;--container-widget-width:300px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-18f76fd{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--background-transition:0.3s;--margin-top:05%;--margin-bottom:05%;--margin-left:0%;--margin-right:0%;--padding-top:5%;--padding-bottom:5%;--padding-left:5%;--padding-right:5%;}.elementor-21 .elementor-element.elementor-element-18f76fd:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-18f76fd > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%);}.elementor-21 .elementor-element.elementor-element-18f76fd, .elementor-21 .elementor-element.elementor-element-18f76fd::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3a630a73{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-65ac9303{text-align:center;}.elementor-21 .elementor-element.elementor-element-65ac9303 .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:43px;font-weight:600;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-24b7c590{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-23836f3a{text-align:center;color:#7A7A7A;font-family:"Montserrat", Sans-serif;font-weight:500;}.elementor-21 .elementor-element.elementor-element-66566f42{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--flex-wrap:wrap;--background-transition:0.3s;--margin-top:-100px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-21 .elementor-element.elementor-element-6c516ae9{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-130d53d0 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:25px;font-weight:600;line-height:35px;fill:#000000;color:#000000;background-color:#FFCB21;border-radius:10px 10px 10px 10px;padding:035px 25px 035px 25px;}.elementor-21 .elementor-element.elementor-element-130d53d0 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-130d53d0 .elementor-button:focus{color:#FFCB21;background-color:#000000;}.elementor-21 .elementor-element.elementor-element-130d53d0 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-130d53d0 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-63b610b9{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-7c9c43ce .elementor-button{font-family:"Montserrat", Sans-serif;font-size:25px;font-weight:600;line-height:35px;fill:#000000;color:#000000;background-color:#FFCB21;border-radius:10px 10px 10px 10px;padding:052.5px 25px 052.5px 25px;}.elementor-21 .elementor-element.elementor-element-7c9c43ce .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-7c9c43ce .elementor-button:focus{color:#FFCB21;background-color:#000000;}.elementor-21 .elementor-element.elementor-element-7c9c43ce .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-7c9c43ce .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-6518d4e6{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3bfd442d .elementor-button{font-family:"Montserrat", Sans-serif;font-size:25px;font-weight:600;line-height:35px;fill:#000000;color:#000000;background-color:#FFCB21;border-radius:10px 10px 10px 10px;padding:035px 25px 035px 25px;}.elementor-21 .elementor-element.elementor-element-3bfd442d .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-3bfd442d .elementor-button:focus{color:#FFCB21;background-color:#000000;}.elementor-21 .elementor-element.elementor-element-3bfd442d .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-3bfd442d .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-6d8da7e3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-596edab4{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-611c8c17{--divider-border-style:solid;--divider-color:#000;--divider-border-width:1px;}.elementor-21 .elementor-element.elementor-element-611c8c17 .elementor-divider-separator{width:100%;}.elementor-21 .elementor-element.elementor-element-611c8c17 .elementor-divider{padding-block-start:15px;padding-block-end:15px;}.elementor-21 .elementor-element.elementor-element-21a83b80{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-34588c6c{--display:flex;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-4fe97926{--e-image-carousel-slides-to-show:4;}.elementor-21 .elementor-element.elementor-element-4fe97926 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image{border-radius:10px 10px 10px 10px;}.elementor-21 .elementor-element.elementor-element-6baac98f{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-67e82fd4{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-a6b0b41{--divider-border-style:solid;--divider-color:#000;--divider-border-width:1px;}.elementor-21 .elementor-element.elementor-element-a6b0b41 .elementor-divider-separator{width:100%;}.elementor-21 .elementor-element.elementor-element-a6b0b41 .elementor-divider{padding-block-start:15px;padding-block-end:15px;}.elementor-21 .elementor-element.elementor-element-1f9ba20b{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-7e46a83a{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;--overlay-opacity:0.9;--padding-top:5%;--padding-bottom:5%;--padding-left:010%;--padding-right:050%;}.elementor-21 .elementor-element.elementor-element-7e46a83a:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-7e46a83a > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-21 .elementor-element.elementor-element-7e46a83a::before, .elementor-21 .elementor-element.elementor-element-7e46a83a > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-7e46a83a > .e-con-inner > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-7e46a83a > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-7e46a83a > .e-con-inner > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-7e46a83a > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';background-color:transparent;background-image:linear-gradient(90deg, #FFFFFF 50%, #F2295B00 90%);}.elementor-21 .elementor-element.elementor-element-7e46a83a, .elementor-21 .elementor-element.elementor-element-7e46a83a::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-b64ccc2 .elementor-heading-title{color:#3F3F4059;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;text-transform:uppercase;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-35e4aa81 .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;line-height:60px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-50db9e3f{font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-3a3aba2e{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-13b9658{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-12564d33{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-363448d7{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-235143d3{text-align:center;}.elementor-21 .elementor-element.elementor-element-235143d3 .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-2f21e635{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-4215d7c6{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-4215d7c6, .elementor-21 .elementor-element.elementor-element-4215d7c6::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-140122b1{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-140122b1:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-140122b1 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-140122b1, .elementor-21 .elementor-element.elementor-element-140122b1::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3ae94877{width:var( --container-widget-width, 388px );max-width:388px;--container-widget-width:388px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-3ae94877.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-52ecb0ad{text-align:left;}.elementor-21 .elementor-element.elementor-element-52ecb0ad .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-5d609a0c{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-28b1f6e9 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-28b1f6e9 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-28b1f6e9 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-28b1f6e9 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-28b1f6e9 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-3180c553{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-3180c553:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-3180c553 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-3180c553, .elementor-21 .elementor-element.elementor-element-3180c553::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-59cdfd9d{width:var( --container-widget-width, 104.124% );max-width:104.124%;--container-widget-width:104.124%;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-59cdfd9d.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-37baab8b{text-align:left;}.elementor-21 .elementor-element.elementor-element-37baab8b .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-59d344ec{width:var( --container-widget-width, 290px );max-width:290px;--container-widget-width:290px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-59d344ec.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-17245aa6 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-17245aa6 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-17245aa6 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-17245aa6 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-17245aa6 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-21d255af{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-21d255af, .elementor-21 .elementor-element.elementor-element-21d255af::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-7b7c944f{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-7b7c944f:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-7b7c944f > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-7b7c944f, .elementor-21 .elementor-element.elementor-element-7b7c944f::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-28f7dfba{width:var( --container-widget-width, 388px );max-width:388px;--container-widget-width:388px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-28f7dfba.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-40131744{text-align:left;}.elementor-21 .elementor-element.elementor-element-40131744 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-29a99b20{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-58262b8 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-58262b8 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-58262b8 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-58262b8 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-58262b8 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-6483d115{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-6483d115:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-6483d115 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-6483d115, .elementor-21 .elementor-element.elementor-element-6483d115::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-1c4c93c{width:var( --container-widget-width, 104.124% );max-width:104.124%;--container-widget-width:104.124%;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-1c4c93c.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-17a48172{text-align:left;}.elementor-21 .elementor-element.elementor-element-17a48172 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-1a409a8f{width:var( --container-widget-width, 300px );max-width:300px;--container-widget-width:300px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-3e186acd .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-3e186acd .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-3e186acd .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-3e186acd .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-3e186acd .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-637d9a75{--display:flex;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-42164e55{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-1b55adbc{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;--overlay-opacity:0.9;--padding-top:10%;--padding-bottom:9%;--padding-left:010%;--padding-right:050%;}.elementor-21 .elementor-element.elementor-element-1b55adbc:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-1b55adbc > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-21 .elementor-element.elementor-element-1b55adbc::before, .elementor-21 .elementor-element.elementor-element-1b55adbc > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-1b55adbc > .e-con-inner > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-1b55adbc > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-1b55adbc > .e-con-inner > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-1b55adbc > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';background-color:transparent;background-image:linear-gradient(90deg, #FFFFFF 50%, #F2295B00 90%);}.elementor-21 .elementor-element.elementor-element-1b55adbc, .elementor-21 .elementor-element.elementor-element-1b55adbc::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-6bdc4c87 .elementor-heading-title{color:#3F3F4059;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;text-transform:uppercase;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-70c9a8ff .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:30px;font-weight:600;line-height:40px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-4ad3e4bf{font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-9a0508c{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-663be5fd{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-327d03b3{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-87421ba{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-7ddd1995{--display:flex;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-ca07e8d{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-7863b4df{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3ff24339{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-4a3f8173{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-59415ebf{text-align:center;}.elementor-21 .elementor-element.elementor-element-59415ebf .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-78298237{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-3560dcaa{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-3560dcaa, .elementor-21 .elementor-element.elementor-element-3560dcaa::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-48c81088{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-48c81088:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-48c81088 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-48c81088, .elementor-21 .elementor-element.elementor-element-48c81088::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-51334bf7{width:var( --container-widget-width, 388px );max-width:388px;--container-widget-width:388px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-51334bf7.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-2adf431c{text-align:left;}.elementor-21 .elementor-element.elementor-element-2adf431c .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-419d0ce7{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-7c0b1daf .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-7c0b1daf .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-7c0b1daf .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-7c0b1daf .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-7c0b1daf .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-72cd1d58{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-72cd1d58:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-72cd1d58 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-72cd1d58, .elementor-21 .elementor-element.elementor-element-72cd1d58::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-15b5639d{width:var( --container-widget-width, 104.124% );max-width:104.124%;--container-widget-width:104.124%;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-15b5639d.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-61fe1054{text-align:left;}.elementor-21 .elementor-element.elementor-element-61fe1054 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-caa293e{width:var( --container-widget-width, 379px );max-width:379px;--container-widget-width:379px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-caa293e.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-6a369ca1 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-6a369ca1 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-6a369ca1 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-6a369ca1 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-6a369ca1 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-2a67efe4{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-2a67efe4, .elementor-21 .elementor-element.elementor-element-2a67efe4::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3ae77f9d{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-3ae77f9d:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-3ae77f9d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-3ae77f9d, .elementor-21 .elementor-element.elementor-element-3ae77f9d::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-4e8ba1a3{width:var( --container-widget-width, 388px );max-width:388px;--container-widget-width:388px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-4e8ba1a3.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-62d6b43d{text-align:left;}.elementor-21 .elementor-element.elementor-element-62d6b43d .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-42c8f455{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-6bc7cf5 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-6bc7cf5 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-6bc7cf5 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-6bc7cf5 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-6bc7cf5 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-2db9260a{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-2db9260a:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-2db9260a > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-2db9260a, .elementor-21 .elementor-element.elementor-element-2db9260a::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-413e6d4a{width:var( --container-widget-width, 104.124% );max-width:104.124%;--container-widget-width:104.124%;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-413e6d4a.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-6163410f{text-align:left;}.elementor-21 .elementor-element.elementor-element-6163410f .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-8cb23b2{width:var( --container-widget-width, 407px );max-width:407px;--container-widget-width:407px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-8cb23b2.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-74c56b41 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-74c56b41 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-74c56b41 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-74c56b41 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-74c56b41 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-21e3bc98{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-68a65eaa{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-5228b6ee{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;--overlay-opacity:0.95;--padding-top:5%;--padding-bottom:5%;--padding-left:010%;--padding-right:050%;}.elementor-21 .elementor-element.elementor-element-5228b6ee:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-5228b6ee > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-21 .elementor-element.elementor-element-5228b6ee::before, .elementor-21 .elementor-element.elementor-element-5228b6ee > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-5228b6ee > .e-con-inner > .elementor-background-video-container::before, .elementor-21 .elementor-element.elementor-element-5228b6ee > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-5228b6ee > .e-con-inner > .elementor-background-slideshow::before, .elementor-21 .elementor-element.elementor-element-5228b6ee > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';background-color:transparent;background-image:linear-gradient(90deg, #FFFFFF 50%, #F2295B00 90%);}.elementor-21 .elementor-element.elementor-element-5228b6ee, .elementor-21 .elementor-element.elementor-element-5228b6ee::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-57d2c544 .elementor-heading-title{color:#3F3F4059;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;text-transform:uppercase;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-4195c909 .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:30px;font-weight:600;line-height:40px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-c3235e1{font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-27b78cb{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-1165a48d{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-34ba1229{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-55b56c71{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-7a585e14{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-31081c25{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-5fa6b80e{text-align:center;}.elementor-21 .elementor-element.elementor-element-5fa6b80e .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-27265526{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-67a1ce9b{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-67a1ce9b, .elementor-21 .elementor-element.elementor-element-67a1ce9b::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-594f926c{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-594f926c:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-594f926c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-594f926c, .elementor-21 .elementor-element.elementor-element-594f926c::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-67f7e7b6{width:var( --container-widget-width, 300px );max-width:300px;--container-widget-width:300px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-15aab18a{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-2cac8c5a{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-2cac8c5a:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-2cac8c5a > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-2cac8c5a, .elementor-21 .elementor-element.elementor-element-2cac8c5a::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-2a3d1d4b{width:var( --container-widget-width, 300px );max-width:300px;--container-widget-width:300px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-127f96e1{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-127f96e1:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-127f96e1 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-127f96e1, .elementor-21 .elementor-element.elementor-element-127f96e1::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-441d9b22{width:var( --container-widget-width, 300px );max-width:300px;--container-widget-width:300px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-6c526f65{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3e940af6{--spacer-size:50px;}.elementor-21 .elementor-element.elementor-element-327b58b6{--display:flex;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-63f579b7{--e-image-carousel-slides-to-show:4;}.elementor-21 .elementor-element.elementor-element-63f579b7 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image{border-radius:10px 10px 10px 10px;}.elementor-21 .elementor-element.elementor-element-6fcad2ad{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-66502fc5{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-20fb79fc{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-5ba097f5{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-6d4d73f4{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-3509dd01{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-44981edd{text-align:center;}.elementor-21 .elementor-element.elementor-element-44981edd .elementor-heading-title{color:#101112;font-family:"Montserrat", Sans-serif;font-size:49px;font-weight:600;line-height:50px;letter-spacing:0.5px;}.elementor-21 .elementor-element.elementor-element-51075b76{--spacer-size:20px;}.elementor-21 .elementor-element.elementor-element-432cba85{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-432cba85, .elementor-21 .elementor-element.elementor-element-432cba85::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-4449429{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-4449429:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-4449429 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-4449429, .elementor-21 .elementor-element.elementor-element-4449429::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-44fa92eb{width:var( --container-widget-width, 388px );max-width:388px;--container-widget-width:388px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-44fa92eb.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-b5667f{text-align:left;}.elementor-21 .elementor-element.elementor-element-b5667f .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-4d53ac95{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-d6c06a4 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-d6c06a4 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-d6c06a4 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-d6c06a4 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-d6c06a4 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-f7715e1{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-f7715e1:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-f7715e1 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-f7715e1, .elementor-21 .elementor-element.elementor-element-f7715e1::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-4162e736{width:var( --container-widget-width, 104.124% );max-width:104.124%;--container-widget-width:104.124%;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-4162e736.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-3f6bef9c{text-align:left;}.elementor-21 .elementor-element.elementor-element-3f6bef9c .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-f8ef6d1{width:var( --container-widget-width, 400px );max-width:400px;--container-widget-width:400px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-f8ef6d1.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-359b2bf2 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-359b2bf2 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-359b2bf2 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-359b2bf2 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-359b2bf2 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-392e5924{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--padding-top:00%;--padding-bottom:0%;--padding-left:10%;--padding-right:010%;}.elementor-21 .elementor-element.elementor-element-392e5924, .elementor-21 .elementor-element.elementor-element-392e5924::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-949c335{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-949c335:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-949c335 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-949c335, .elementor-21 .elementor-element.elementor-element-949c335::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-48c7883c{width:var( --container-widget-width, 388px );max-width:388px;--container-widget-width:388px;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-48c7883c.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-693f9ef2{text-align:left;}.elementor-21 .elementor-element.elementor-element-693f9ef2 .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-ffedbf8{font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-25dbc17 .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-25dbc17 .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-25dbc17 .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-25dbc17 .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-25dbc17 .elementor-button:focus svg{fill:#FFCB21;}.elementor-21 .elementor-element.elementor-element-2d0f5ad5{--display:flex;--justify-content:flex-start;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-21 .elementor-element.elementor-element-2d0f5ad5:not(.elementor-motion-effects-element-type-background), .elementor-21 .elementor-element.elementor-element-2d0f5ad5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);}.elementor-21 .elementor-element.elementor-element-2d0f5ad5, .elementor-21 .elementor-element.elementor-element-2d0f5ad5::before{--border-transition:0.3s;}.elementor-21 .elementor-element.elementor-element-6e11f6f7{width:var( --container-widget-width, 104.124% );max-width:104.124%;--container-widget-width:104.124%;--container-widget-flex-grow:0;}.elementor-21 .elementor-element.elementor-element-6e11f6f7.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-3e2c803f{text-align:left;}.elementor-21 .elementor-element.elementor-element-3e2c803f .elementor-heading-title{color:#161717;font-family:"Montserrat", Sans-serif;font-size:17px;font-weight:600;}.elementor-21 .elementor-element.elementor-element-3cbe9325{width:var( --container-widget-width, 366px );max-width:366px;--container-widget-width:366px;--container-widget-flex-grow:0;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;}.elementor-21 .elementor-element.elementor-element-3cbe9325.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-21 .elementor-element.elementor-element-6cb18e0d .elementor-button{font-family:"Montserrat", Sans-serif;font-size:20px;font-weight:700;fill:#000000;color:#000000;background-color:#FFCB24;border-radius:100px 100px 100px 100px;padding:020px 040px 020px 040px;}.elementor-21 .elementor-element.elementor-element-6cb18e0d .elementor-button:hover, .elementor-21 .elementor-element.elementor-element-6cb18e0d .elementor-button:focus{color:#FFCB21;background-color:#010000;}.elementor-21 .elementor-element.elementor-element-6cb18e0d .elementor-button:hover svg, .elementor-21 .elementor-element.elementor-element-6cb18e0d .elementor-button:focus svg{fill:#FFCB21;}@media(min-width:768px){.elementor-21 .elementor-element.elementor-element-6c516ae9{--width:33.3333%;}.elementor-21 .elementor-element.elementor-element-63b610b9{--width:33.3333%;}.elementor-21 .elementor-element.elementor-element-6518d4e6{--width:33.3333%;}}
+</style>
+<link rel='stylesheet' id='swiper-css' href='http://localhost/wordpress/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='eael-general-css' href='http://localhost/wordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.0.0' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.1' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="http://localhost/wordpress/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="http://localhost/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="http://localhost/wordpress/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://localhost/wordpress/wp-json/wp/v2/pages/21" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wordpress/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel="canonical" href="http://localhost/wordpress/elementor-21/" />
+<link rel='shortlink' href='http://localhost/wordpress/?p=21' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2Felementor-21%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2Felementor-21%2F&#038;format=xml" />
+<meta name="generator" content="Elementor 3.23.4; features: e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_lazyload, e_element_cache; settings: css_print_method-internal, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style id='wp-fonts-local'>
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('http://localhost/wordpress/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('http://localhost/wordpress/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:italic;font-weight:400;font-display:fallback;src:url('http://localhost/wordpress/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:normal;font-weight:700;font-display:fallback;src:url('http://localhost/wordpress/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');}
+</style>
+</head>
+<body class="page-template page-template-elementor_header_footer page page-id-21 wp-embed-responsive elementor-default elementor-template-full-width elementor-kit-7 elementor-page elementor-page-21">
+<div id="page">
+
+<div id="header" role="banner">
+	<div id="headerimg">
+		<h1><a href="http://localhost/wordpress/">wordpress</a></h1>
+		<div class="description"></div>
+	</div>
+</div>
+<hr />
+		<div data-elementor-type="wp-page" data-elementor-id="21" class="elementor elementor-21">
+				<div class="elementor-element elementor-element-5b4eabe0 e-con-full e-flex e-con e-parent" data-id="5b4eabe0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-4581d4d1 elementor-widget elementor-widget-heading" data-id="4581d4d1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">A biztonságos és hatékonyan működő raktár</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3e049ee3 elementor-widget elementor-widget-spacer" data-id="3e049ee3" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container{height:100%;width:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty,.e-con>.elementor-widget-spacer.elementor-widget-empty{position:relative;min-height:22px;min-width:22px}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon,.e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;padding:0;width:22px;height:22px}</style>		<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-25160569 elementor-widget elementor-widget-text-editor" data-id="25160569" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<table border="0" width="404" cellspacing="0" cellpadding="0"><colgroup><col width="404" /></colgroup><tbody><tr><td class="xl63" width="404" height="128">Sok raktár szembesül kihívásokkal a rossz szervezés és a biztonsági kockázatok miatt. A kijelöletlen útvonalak és rakodási területek, valamint  a vizuális kommunikáció hiánya balesetekhez, sérült árukhoz vagy akár a hatékonyság csökkenéséhez is vezethet.<br />Az Ön raktára hatékonyan és biztonságosan működik?</td></tr></tbody></table>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6185b6de elementor-widget elementor-widget-spacer" data-id="6185b6de" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3d52d6ce e-flex e-con-boxed e-con e-parent" data-id="3d52d6ce" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2d8a450a e-con-full e-flex e-con e-child" data-id="2d8a450a" data-element_type="container">
+				<div class="elementor-element elementor-element-26d21a5f elementor-widget elementor-widget-spacer" data-id="26d21a5f" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7dc28277 elementor-widget elementor-widget-heading" data-id="7dc28277" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">A jól szervezett raktárnak számos pozitív jellemzője van, ami jelentős hatással van a vállalat működésére</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-186de103 elementor-widget elementor-widget-spacer" data-id="186de103" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4d584278 e-con-full e-flex e-con e-child" data-id="4d584278" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-36d8740b e-con-full e-flex e-con e-child" data-id="36d8740b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-5602e4c7 elementor-widget elementor-widget-image" data-id="5602e4c7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-66ecc5c1 elementor-widget elementor-widget-heading" data-id="66ecc5c1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Hatékony árukészlet-kezelés</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e4ab6cc elementor-widget elementor-widget-text-editor" data-id="e4ab6cc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Egy jól szervezett raktár lehetővé teszi az áruk gyors és pontos be- és kiszállítását. Ez segíthet minimalizálni a készletvesztéseket és az elavult készleteket, valamint optimalizálhatja az árukészlet forgási sebességét.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-38f2a1c4 e-con-full e-flex e-con e-child" data-id="38f2a1c4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-501a8878 elementor-widget elementor-widget-image" data-id="501a8878" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-5d37d7f8 elementor-widget elementor-widget-heading" data-id="5d37d7f8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Kényelem és hozzáférhetőség</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-60f87ec5 elementor-widget elementor-widget-text-editor" data-id="60f87ec5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p> A rendszerezett raktárban az áruk könnyebben megtalálhatók és hozzáférhetők, ami lehetővé teszi a gyorsabb kiszállítást a vásárlók számára. Ez növeli az ügyfélelégedettséget és javítja a vállalat hírnevét.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7c4007d7 e-con-full e-flex e-con e-child" data-id="7c4007d7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-8b9381d elementor-widget elementor-widget-image" data-id="8b9381d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-4eab66f7 elementor-widget elementor-widget-heading" data-id="4eab66f7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Költségmegtakarítás
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c2158f2 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="1c2158f2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Az optimalizált raktározási folyamatok csökkenthetik a munkaerőigényt, az üresjárati költségeket és az anyagi veszteségeket. Ezenkívül a pontosabb készletszintek segítenek elkerülni a túlkészletet és a raktárköltségek növekedését.</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-244f4d4e e-con-full e-flex e-con e-child" data-id="244f4d4e" data-element_type="container">
+		<div class="elementor-element elementor-element-71cd403e e-con-full e-flex e-con e-child" data-id="71cd403e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-3bfa3efc elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="3bfa3efc" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-59fa6665 elementor-widget elementor-widget-heading" data-id="59fa6665" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Pontosabb adatok </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5795ecf8 elementor-widget elementor-widget-text-editor" data-id="5795ecf8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Egy jól szervezett raktár rendelkezik informatikai rendszerekkel és nyomonkövetési eszközökkel, amelyek lehetővé teszik a készletek és az áruk pontos nyomon követését. Ez segíthet a készletek optimalizálásában és a készletigényes tervezésben.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-687778d6 e-con-full e-flex e-con e-child" data-id="687778d6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-5dfdf37b elementor-widget elementor-widget-image" data-id="5dfdf37b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" title="durable_hatter1" alt="durable_hatter1" loading="lazy" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-27d54f19 elementor-widget elementor-widget-heading" data-id="27d54f19" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Jobb munkakörülmények</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-744697e0 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="744697e0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Egy jól szervezett raktár általában biztonságosabb és kényelmesebb munkakörnyezetet biztosít a dolgozók számára. Ez növeli a munkavállalók elégedettségét és produktivitását.</p>						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-18f76fd e-flex e-con-boxed e-con e-parent" data-id="18f76fd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3a630a73 elementor-widget elementor-widget-spacer" data-id="3a630a73" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-65ac9303 elementor-widget elementor-widget-heading" data-id="65ac9303" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Logisztikai megoldások a padlótól a plafonig</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-24b7c590 elementor-widget elementor-widget-spacer" data-id="24b7c590" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-23836f3a elementor-widget elementor-widget-text-editor" data-id="23836f3a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Egy rosszul szervezett raktár, jelöletlen útvonalakkal és a vizuális kommunikáció mellőzésével balesetekhez, sérült termékekhez és csökkent termelékenységhez vezethet. A DURABLE olyan innovatív logisztikai megoldásokat kínál, amelyek ezeket a kihívásokat kezelik és átalakítják raktárát egy biztonságosabb és hatékonyabb tereppé.</p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-66566f42 e-flex e-con-boxed e-con e-parent" data-id="66566f42" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6c516ae9 e-con-full e-flex e-con e-child" data-id="6c516ae9" data-element_type="container">
+				<div class="elementor-element elementor-element-130d53d0 elementor-align-center elementor-widget elementor-widget-button" data-id="130d53d0" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#padlojelolo">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Padlójelölő szalagok és biztonsági jelzések</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-63b610b9 e-con-full e-flex e-con e-child" data-id="63b610b9" data-element_type="container">
+				<div class="elementor-element elementor-element-7c9c43ce elementor-align-center elementor-widget elementor-widget-button" data-id="7c9c43ce" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#logisztikaizsebek">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Logisztikai zsebek</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6518d4e6 e-con-full e-flex e-con e-child" data-id="6518d4e6" data-element_type="container">
+				<div class="elementor-element elementor-element-3bfd442d elementor-align-center elementor-widget elementor-widget-button" data-id="3bfd442d" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#figyelmezteto">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Figyelmeztető és védőprofilok</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6d8da7e3 e-con-full e-flex e-con e-parent" data-id="6d8da7e3" data-element_type="container">
+				<div class="elementor-element elementor-element-596edab4 elementor-widget elementor-widget-spacer" data-id="596edab4" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-611c8c17 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="611c8c17" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-block-end:0;flex-grow:1;border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-21a83b80 elementor-widget elementor-widget-spacer" data-id="21a83b80" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-34588c6c e-flex e-con-boxed e-con e-parent" data-id="34588c6c" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6baac98f e-con-full e-flex e-con e-parent" data-id="6baac98f" data-element_type="container">
+				<div class="elementor-element elementor-element-67e82fd4 elementor-widget elementor-widget-spacer" data-id="67e82fd4" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a6b0b41 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="a6b0b41" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1f9ba20b elementor-widget elementor-widget-spacer" data-id="1f9ba20b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7e46a83a e-con-full e-flex e-con e-parent" data-id="7e46a83a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-707c2286 elementor-widget elementor-widget-menu-anchor" data-id="707c2286" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+body.elementor-page .elementor-widget-menu-anchor{margin-bottom:0}</style>		<div class="elementor-menu-anchor" id="padlojelolo"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b64ccc2 elementor-widget elementor-widget-heading" data-id="b64ccc2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">padlójelölő szalagok és biztonsági jelzések</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-35e4aa81 elementor-widget elementor-widget-heading" data-id="35e4aa81" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Egyértelmű vizuális jelzések</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-50db9e3f elementor-widget elementor-widget-text-editor" data-id="50db9e3f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>A padlójelölő szalagok, biztonsági jelzések és piktogramok világos iránymutatást biztosítanak a dolgozóknak, kijelölve a gyalogos útvonalakat, rakodási területeket, biztonsági és veszélyzónákat.</strong></p><p>Élénk színeikkel biztosítják a maximális láthatóságot, csökkentve a balesetek kockázatát és elősegítve egy biztonságosabb munkakörnyezetet.Az öntapadós padlójelölések az iparban, raktárakban és a logisztikában hatékonyan segítenek a különböző területek megfelelő jelölésében és elhatárolásában.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3a3aba2e elementor-widget elementor-widget-spacer" data-id="3a3aba2e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-13b9658 e-flex e-con-boxed e-con e-parent" data-id="13b9658" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-12564d33 e-con-full e-flex e-con e-child" data-id="12564d33" data-element_type="container">
+				<div class="elementor-element elementor-element-363448d7 elementor-widget elementor-widget-spacer" data-id="363448d7" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-235143d3 elementor-widget elementor-widget-heading" data-id="235143d3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Milyen jelzéseket használhat a padlón?</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2f21e635 elementor-widget elementor-widget-spacer" data-id="2f21e635" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4215d7c6 e-con-full e-flex e-con e-child" data-id="4215d7c6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-140122b1 e-con-full e-flex e-con e-child" data-id="140122b1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-3ae94877 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="3ae94877" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-52ecb0ad elementor-widget elementor-widget-heading" data-id="52ecb0ad" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Padlójelölő alakzatok és ablakok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5d609a0c elementor-widget elementor-widget-text-editor" data-id="5d609a0c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Különösen a raklapok és kartondobozok tárolóhelyeinek egyértelmű jelölése hozzájárul a működési folyamatok hatékony szervezéséhez. A különböző formák, pl. a sarokhelyek és a raktér széleinek jelölésével. Az öntapadós lábjelzések nagyobb biztonságot nyújtanak azáltal, hogy egyértelművé teszik a járdákat, és megakadályozzák, hogy az emberek veszélyes zónákba lépjenek.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-28b1f6e9 elementor-align-left elementor-widget elementor-widget-button" data-id="28b1f6e9" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/Padlojeloles">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3180c553 e-con-full e-flex e-con e-child" data-id="3180c553" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-59cdfd9d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="59cdfd9d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-37baab8b elementor-widget elementor-widget-heading" data-id="37baab8b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Öntapadó padlójelölő szalagok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-59d344ec elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="59d344ec" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Tökéletesen alkalmasak az utak és a járdák kijelölésére, ráadásul a különböző színek használata lehetővé teszi, hogy jól elkülönítsük a tiltott területeket (pl. a tűzoltó készülékek előtt) a rakodóhelyektől. A raklaphelyek kialakításához különböző padlójelölőket használhatunk.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-17245aa6 elementor-align-left elementor-widget elementor-widget-button" data-id="17245aa6" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/shop_search.php?search=%C3%B6ntapad%C3%B3+padl%C3%B3jel%C3%B6l%C5%91+szalag">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-21d255af e-con-full e-flex e-con e-child" data-id="21d255af" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-7b7c944f e-con-full e-flex e-con e-child" data-id="7b7c944f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-28f7dfba elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="28f7dfba" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-40131744 elementor-widget elementor-widget-heading" data-id="40131744" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Figyelmeztető  és tiltó táblák</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-29a99b20 elementor-widget elementor-widget-text-editor" data-id="29a99b20" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Ideálisak a különböző előírások betartásának biztosítására. Ide tartoznak például a biztonsági cipő viselésére vonatkozó információk, valamint a bizonyos területekre való belépésre vonatkozó korlátozások. A kereszteződéseknél paldómatricák ragaszthatók fel, hogy emlékeztessék az embereket a targonca forgalom által okozott, fokozott kockázatra.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-58262b8 elementor-align-left elementor-widget elementor-widget-button" data-id="58262b8" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/Padlojeloles?infinite_page=2">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6483d115 e-con-full e-flex e-con e-child" data-id="6483d115" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-1c4c93c elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1c4c93c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-17a48172 elementor-widget elementor-widget-heading" data-id="17a48172" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Csúszásgátló szalagok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1a409a8f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="1a409a8f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Az öntapadó csúszásgátló szalagok biztonságosabbá teszik az utak és lépcsők használatát. Beltéren és védett kültéren egyaránt használhatók. A csúszásgátló bevonat segít az utak és lépcsők biztonságossá tételében.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3e186acd elementor-align-left elementor-widget elementor-widget-button" data-id="3e186acd" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/shop_search.php?search=cs%C3%BAsz%C3%A1sg%C3%A1tl%C3%B3+szalag">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-637d9a75 e-con-full e-flex e-con e-child" data-id="637d9a75" data-element_type="container">
+				<div class="elementor-element elementor-element-42164e55 elementor-widget elementor-widget-spacer" data-id="42164e55" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-1b55adbc e-con-full e-flex e-con e-parent" data-id="1b55adbc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-1f324482 elementor-widget elementor-widget-menu-anchor" data-id="1f324482" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-menu-anchor" id="logisztikaizsebek"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6bdc4c87 elementor-widget elementor-widget-heading" data-id="6bdc4c87" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">LOGISZTIKAI ZSEBEK </h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-70c9a8ff elementor-widget elementor-widget-heading" data-id="70c9a8ff" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">A helyes feliratozás kulcsfontosságú</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4ad3e4bf elementor-widget elementor-widget-text-editor" data-id="4ad3e4bf" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Ön tudta, hogy a kommunikáció 80%-a vizuálisan történik? A megfelelő logisztikai feliratozás biztosíthatja, hogy az Ön rakára jól szervezett legyen.</strong></p><p>A helyes feliratozás és vizuális kommunikáció biztosítja a hibaforrások és a hosszú keresési idő csökkentését. Töltsön kevesebb időt kereséssel, használjon a raktárában egyértelmű feliratokat. A címkék pontosan mutatják melyik polcon mit tárol. A DURABLE címkézési megoldások széles skáláját kínálja a mágneses, öntapadó és akasztható logisztikai zsebektől kezdve a raklapláb jelölőkig, így segítve elő az Ön rakárának biztonságos és hatékony működését.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9a0508c elementor-widget elementor-widget-spacer" data-id="9a0508c" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-663be5fd e-con-full e-flex e-con e-child" data-id="663be5fd" data-element_type="container">
+				<div class="elementor-element elementor-element-327d03b3 elementor-widget elementor-widget-spacer" data-id="327d03b3" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-87421ba elementor-widget elementor-widget-spacer" data-id="87421ba" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7ddd1995 e-flex e-con-boxed e-con e-parent" data-id="7ddd1995" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ca07e8d elementor-widget elementor-widget-spacer" data-id="ca07e8d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7863b4df e-flex e-con-boxed e-con e-parent" data-id="7863b4df" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-3ff24339 e-con-full e-flex e-con e-child" data-id="3ff24339" data-element_type="container">
+				<div class="elementor-element elementor-element-4a3f8173 elementor-widget elementor-widget-spacer" data-id="4a3f8173" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-59415ebf elementor-widget elementor-widget-heading" data-id="59415ebf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Szkennelhető címketartók és dokumentum-tartók logisztikai területekre</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-78298237 elementor-widget elementor-widget-spacer" data-id="78298237" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3560dcaa e-con-full e-flex e-con e-child" data-id="3560dcaa" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-48c81088 e-con-full e-flex e-con e-child" data-id="48c81088" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-51334bf7 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="51334bf7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-2adf431c elementor-widget elementor-widget-heading" data-id="2adf431c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Címketartók</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-419d0ce7 elementor-widget elementor-widget-text-editor" data-id="419d0ce7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Logisztikai zsebek sárga, kék vagy átlátszó kivitelben, címkék szakszerű kihelyezéséhez. A zseb megvédi a betétlapot a szennnyeződésektől és a sérülésektől. Válasszon a változatos rögzítési lehetőségek közül.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7c0b1daf elementor-align-left elementor-widget elementor-widget-button" data-id="7c0b1daf" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/shop_search.php?search=logisztikai+zseb&#038;infinite_page=4">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-72cd1d58 e-con-full e-flex e-con e-child" data-id="72cd1d58" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-15b5639d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="15b5639d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-61fe1054 elementor-widget elementor-widget-heading" data-id="61fe1054" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Dokumentum tartók</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-caa293e elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="caa293e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A4,A5 és A6 formátumú dokumentumok szakszerű kihelyezésére szolgál. A zseb megvédi a betétlapot a szennnyeződésektől és a sérülésektől. Válasszon a változatos rögzítési lehetőségek közül.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6a369ca1 elementor-align-left elementor-widget elementor-widget-button" data-id="6a369ca1" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/shop_search.php?search=dokumentumtart%C3%B3">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2a67efe4 e-con-full e-flex e-con e-child" data-id="2a67efe4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-3ae77f9d e-con-full e-flex e-con e-child" data-id="3ae77f9d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-4e8ba1a3 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="4e8ba1a3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-62d6b43d elementor-widget elementor-widget-heading" data-id="62d6b43d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Raklapláb jelölők</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-42c8f455 elementor-widget elementor-widget-text-editor" data-id="42c8f455" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Tépőzárral rögzíthető, négy oldalon feliratozható, strapabíró címketartó, sárga vagy kék színben.</p><p> </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6bc7cf5 elementor-align-left elementor-widget elementor-widget-button" data-id="6bc7cf5" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/shop_search.php?search=raklapl%C3%A1b+jel%C3%B6l%C5%91">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2db9260a e-con-full e-flex e-con e-child" data-id="2db9260a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-413e6d4a elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="413e6d4a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-6163410f elementor-widget elementor-widget-heading" data-id="6163410f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Padlójelölő ablakok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8cb23b2 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="8cb23b2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Visszaszedhető, öntapadó feliratozó zsebek, melyek megvédik a betétlapot a szennyeződéstől és sérüléesktől, miközben hatékonyan támogatják a raktári feliratozást.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-74c56b41 elementor-align-left elementor-widget elementor-widget-button" data-id="74c56b41" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/shop_search.php?search=padl%C3%B3jel%C3%B6l%C5%91+ablak">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-21e3bc98 e-flex e-con-boxed e-con e-parent" data-id="21e3bc98" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-68a65eaa elementor-widget elementor-widget-spacer" data-id="68a65eaa" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5228b6ee e-con-full e-flex e-con e-parent" data-id="5228b6ee" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-473e8d55 elementor-widget elementor-widget-menu-anchor" data-id="473e8d55" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-menu-anchor" id="figyelmezteto"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-57d2c544 elementor-widget elementor-widget-heading" data-id="57d2c544" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Figyelmeztető és védőprofilok</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4195c909 elementor-widget elementor-widget-heading" data-id="4195c909" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">A munkahelyi biztonság elsődleges szempont</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c3235e1 elementor-widget elementor-widget-text-editor" data-id="c3235e1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Az olyan raktár- és gyártási területeken, ahol sok ember dolgozik, és nagy az áruforgalom, különösen érdemes beruházni a figyelmeztető és védőprofilokba. A PU-habból készült rugalmas profilok segíthetnek megelőzni a fájdalmas ütéseket, és védelmet nyújtanak a sérülésekkel szemben is. A DURABLE minden élre, sarokra, felületre és csőre hatékony megoldást kínál.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-27b78cb elementor-widget elementor-widget-spacer" data-id="27b78cb" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1165a48d e-flex e-con-boxed e-con e-parent" data-id="1165a48d" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-34ba1229 elementor-widget elementor-widget-spacer" data-id="34ba1229" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-55b56c71 e-flex e-con-boxed e-con e-parent" data-id="55b56c71" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7a585e14 e-con-full e-flex e-con e-child" data-id="7a585e14" data-element_type="container">
+				<div class="elementor-element elementor-element-31081c25 elementor-widget elementor-widget-spacer" data-id="31081c25" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5fa6b80e elementor-widget elementor-widget-heading" data-id="5fa6b80e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Mitől különlegesek a DURABLE védőprofilok?</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-27265526 elementor-widget elementor-widget-spacer" data-id="27265526" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-67a1ce9b e-con-full e-flex e-con e-child" data-id="67a1ce9b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-594f926c e-con-full e-flex e-con e-child" data-id="594f926c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-67f7e7b6 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="67f7e7b6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" title="durable_hatter1" alt="durable_hatter1" loading="lazy" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-15aab18a elementor-widget elementor-widget-text-editor" data-id="15aab18a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Figyelemfelkeltő színhasználat és egyszerű alkalmazás</strong></p><p>A RAL 1004/9003 jelzősárga-jelzőfeketéhez hasonló szín hatékonyan jelzi a veszélyes helyeket. A flexibilis profilok éles késsel a kívánt hosszúságúra vághatóak.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2cac8c5a e-con-full e-flex e-con e-child" data-id="2cac8c5a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-41c69665 elementor-widget elementor-widget-image" data-id="41c69665" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" title="durable_hatter1" alt="durable_hatter1" loading="lazy" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-2a3d1d4b elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="2a3d1d4b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Biztonságosabb munkahely</strong></p><p>A PU-hab kiváló ütéscsillapító tulajdonságának köszönhetően védi a felületeket, falakat és enyhíti az ütés okozta sérüléseket.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-127f96e1 e-con-full e-flex e-con e-child" data-id="127f96e1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-57a454fa elementor-widget elementor-widget-image" data-id="57a454fa" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" title="durable_hatter1" alt="durable_hatter1" loading="lazy" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-441d9b22 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="441d9b22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Széleskörű felhasználás</strong></p><p>Gyártási, szállítmányozási és raktározási területeken, pincékben, lépcsőházakban, garázsokban, falakon és gerendákon, polcokon és szekrényeken, valamint gépeken, tárolókocsikon stb. használható.</p>						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6c526f65 e-flex e-con-boxed e-con e-parent" data-id="6c526f65" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3e940af6 elementor-widget elementor-widget-spacer" data-id="3e940af6" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-327b58b6 e-flex e-con-boxed e-con e-parent" data-id="327b58b6" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6fcad2ad e-con-full e-flex e-con e-child" data-id="6fcad2ad" data-element_type="container">
+				<div class="elementor-element elementor-element-66502fc5 elementor-widget elementor-widget-spacer" data-id="66502fc5" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-20fb79fc elementor-widget elementor-widget-spacer" data-id="20fb79fc" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5ba097f5 e-flex e-con-boxed e-con e-parent" data-id="5ba097f5" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6d4d73f4 e-con-full e-flex e-con e-child" data-id="6d4d73f4" data-element_type="container">
+				<div class="elementor-element elementor-element-3509dd01 elementor-widget elementor-widget-spacer" data-id="3509dd01" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-44981edd elementor-widget elementor-widget-heading" data-id="44981edd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Milyen védőprofilok közül választhat?</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-51075b76 elementor-widget elementor-widget-spacer" data-id="51075b76" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-432cba85 e-con-full e-flex e-con e-child" data-id="432cba85" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-4449429 e-con-full e-flex e-con e-child" data-id="4449429" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-44fa92eb elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="44fa92eb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-b5667f elementor-widget elementor-widget-heading" data-id="b5667f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Sarokvédő profilok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4d53ac95 elementor-widget elementor-widget-text-editor" data-id="4d53ac95" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A sarokvédő profil alkalmas a gyártásban, a szállításban és raktározásban, pincékben, lépcsőházakban, garázsokban, falakon és gerendákon, polcokon és szekrényeken, valamint gépeken, tárolókocsikon stb. történő felhasználásra. Jelöli a veszélyes helyeket, védi a felületeket, falakat és enyhíti az ütés okozta sérüléseket.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d6c06a4 elementor-align-left elementor-widget elementor-widget-button" data-id="d6c06a4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/Sarokvedo-profil-C19" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f7715e1 e-con-full e-flex e-con e-child" data-id="f7715e1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-4162e736 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="4162e736" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-3f6bef9c elementor-widget elementor-widget-heading" data-id="3f6bef9c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Felületvédő profilok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f8ef6d1 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="f8ef6d1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A munkaterületek kihasználtságától függően a sík felületek is igényelhetnek ütésvédelmet. A megfelelő profil kijelöli a veszélyes helyeket, védi a felületeket, falakat és enyhíti az ütés okozta sérüléseket. Ideális a gyártási, szállítmányozási és raktározási területeken, pincékben, lépcsőházakban, garázsokban, falakon és gerendákon, polcokon és szekrényeken, valamint gépeken, tárolókocsikon stb. történő felhasználásra.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-359b2bf2 elementor-align-left elementor-widget elementor-widget-button" data-id="359b2bf2" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/Feluletvedo-profil-S20">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-392e5924 e-con-full e-flex e-con e-child" data-id="392e5924" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-949c335 e-con-full e-flex e-con e-child" data-id="949c335" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-48c7883c elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="48c7883c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-693f9ef2 elementor-widget elementor-widget-heading" data-id="693f9ef2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Élvédő profilok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ffedbf8 elementor-widget elementor-widget-text-editor" data-id="ffedbf8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Ez a kerek vagy szögletes élvédő profil védi a polcok éleit, burkolja a T-gerendákat stb., de használható a gyártásban, a szállításban, a raktározásban, a pincékben, a lépcsőházakban és a garázsokban egyaránt. Csökkenti az ütés okozta sérüléseket, jelöli a veszélyes helyeket, és megakadályozza a járművek és szállító kocsik sérülését.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-25dbc17 elementor-align-left elementor-widget elementor-widget-button" data-id="25dbc17" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/Elvedo-profil-E8R">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2d0f5ad5 e-con-full e-flex e-con e-child" data-id="2d0f5ad5" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				<div class="elementor-element elementor-element-6e11f6f7 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="6e11f6f7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img fetchpriority="high" decoding="async" width="2880" height="1851" src="http://localhost/wordpress/wp-content/uploads/2024/08/durable_hatter1.jpg" class="attachment-full size-full wp-image-19" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-3e2c803f elementor-widget elementor-widget-heading" data-id="3e2c803f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Csővédő profilok</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3cbe9325 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="3cbe9325" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Védőprofil 20-40 mm átmérőjű csövekhez vagy kábelekhez, amelyeket szerkezeti okokból járdák közelében helyeznek el. Kiválóan használható a gyártásban, szállításban és raktározásban, lépcsőházakban vagy szűk helyiségekben, például pincékben vagy garázsokban, ahol alacsony átjárók vannak stb.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6cb18e0d elementor-align-left elementor-widget elementor-widget-button" data-id="6cb18e0d" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-bob" href="https://www.w-protect.hu/Csovedo-profil-P30">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Tovább a termékre!</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+<hr />
+<div id="footer" role="contentinfo">
+<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
+	<p>
+		wordpress is proudly powered by <a href="https://wordpress.org/">WordPress</a>	</p>
+</div>
+</div>
+
+<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/ -->
+
+					<script type='text/javascript'>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='e-animations-css' href='http://localhost/wordpress/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.23.4' media='all' />
+<script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
+</script>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php","nonce":"8a2dd23398","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"http:\/\/localhost\/wordpress\/elementor-21\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+</script>
+<script src="http://localhost/wordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=6.0.0" id="eael-general-js"></script>
+<script src="http://localhost/wordpress/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.23.4" id="elementor-webpack-runtime-js"></script>
+<script src="http://localhost/wordpress/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.4" id="elementor-frontend-modules-js"></script>
+<script src="http://localhost/wordpress/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="http://localhost/wordpress/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.23.4","is_static":false,"experimentalFeatures":{"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_optimized_control_loading":true,"e_onboarding":true,"home_screen":true,"editor_v2":true,"ai-layout":true,"e_lazyload":true,"e_element_cache":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"http:\/\/localhost\/wordpress\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"d17f6cca03"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":21,"title":"Elementor%20%2321%20%E2%80%93%20wordpress","excerpt":"","featuredImage":false}};
+</script>
+<script src="http://localhost/wordpress/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.4" id="elementor-frontend-js"></script>
+</body>
+</html>
